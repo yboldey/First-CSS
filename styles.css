@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Roboto:wght@300;400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    background-color: #cafdff;
+}
+
+header {
+    background-color: #eadcff;
+    height: calc(100vh - 70px);
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    font-size: 72px;
+}
+
+.subheader {
+    font-size: 36px;
+    margin: 16px 0 24px 0;
+}
+
+button {
+    font-size: 24px;
+    padding: 8px 16px;
+    border: none;
+    color: white;
+    background-color: #05c7cf;
+    cursor:pointer;
+}
+ul {
+    display: flex;
+}
+li {
+    list-style-type: none;
+}
+
+a {
+    color: black;
+    font-size: 23px;
+    font-weight: 700;
+    padding: 0 16px;
+}
+
+.row {
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about {
+    padding: 0 48px;
+    background-color: #f8ffdc;
+}
+
+h2 {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.about__description {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.about__img--wrapper {
+    width: 40%;
+}
+
+.laptop {
+    width: 100%;
+}
+
+.about__description--wrapper {
+    width: 60%;
+}
+
+.about__description--para {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+#discord {
+    background-color: #cefeff;
+    padding: 48px;
+}
+
+.discord__img {
+    width: 100%;
+}
+
+#contact {
+    background-color: #dce9ff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    margin:0 auto
+}
+
+label {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+input {
+    margin: 8px 0px;
+    padding: 6px 12px;
+    font-size: 20px;
+}
+
+textarea {
+    margin-top: 8px;
+    padding: 6px 12px;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #aff5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 0;
+}
+
+.footer__logo {
+    max-width: 480px;
+    margin-bottom: 16px;
+}
+.footer__links {
+    margin-bottom: 36px;
+}
+.footer__link {
+    padding: 0 16px;
+}
